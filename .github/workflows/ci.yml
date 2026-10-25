@@ -46,7 +46,7 @@ jobs:
         run: python -m pytest backend/tests -v
       - name: Audit Python runtime dependencies
         run: pip-audit -r backend/requirements-lock.txt
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
           cache: npm

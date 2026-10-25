@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/.next/
+frontend/*.tsbuildinfo
+frontend/.npm-cache/
+frontend/.env.local
+backend/.venv/
+.venv/
+**/__pycache__/
+.pytest_cache/
+*.py[cod]
+work/
+outputs/
+web-build.log

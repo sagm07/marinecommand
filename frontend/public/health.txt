@@ -1,0 +1,1 @@
+Marine Command Core dashboard assets are served from this directory.
